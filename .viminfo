@@ -10,17 +10,36 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1598896061,,"wq"
+|2,0,1606528855,,"wq"
+:q!
+|2,0,1606524796,,"q!"
+:q
+|2,0,1606524791,,"q"
+:!Q
+|2,0,1606524783,,"!Q"
+:D
+|2,0,1602015515,,"D"
+:dd
+|2,0,1602015511,,"dd"
+:!q
+|2,0,1602012249,,"!q"
+:wwq
+|2,0,1599598129,,"wwq"
+:WQ
+|2,0,1599499859,,"WQ"
 :x
 |2,0,1598380131,,"x"
-:q
-|2,0,1598378711,,"q"
 :w
 |2,0,1598378708,,"w"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1600103008,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -29,232 +48,2290 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	
+|3,1,1,1,1,0,1605550661,""
+"2	LINE	0
+																												//
+	1361
+<																											//                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        else if(input == "exit"){
+|3,0,2,1,2,0,1602015581,"																											//",>1362
+|<"																											//                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+|<                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+|<                                                                                                                                                                                                                                                                                                                                                                 else if(input == \"exit\"){"
+"3	LINE	0
+			number = (book["phone"]);
+|3,0,3,1,1,0,1600103872,"		number = (book[\"phone\"]);"
+"-	CHAR	0
+	}
+|3,0,36,0,1,0,1602016102,"}"
 
 # File marks:
-'0  2  71  ~/db-class/library.sql
-|4,48,2,71,1598896061,"~/db-class/library.sql"
-'1  1  56  ~/db-class/task1.env
-|4,49,1,56,1598895766,"~/db-class/task1.env"
-'2  1  56  ~/db-class/task1.env
-|4,50,1,56,1598895470,"~/db-class/task1.env"
-'3  1  13  ~/db-class/.git/COMMIT_EDITMSG
-|4,51,1,13,1598895062,"~/db-class/.git/COMMIT_EDITMSG"
-'4  4  46  ~/HelloWorld/hello.c
-|4,52,4,46,1598402177,"~/HelloWorld/hello.c"
-'5  1  0  ~/HelloWorld/M2Lab.c
-|4,53,1,0,1598380131,"~/HelloWorld/M2Lab.c"
-'6  4  46  ~/HelloWorld/hello.c
-|4,54,4,46,1598379254,"~/HelloWorld/hello.c"
-'7  4  45  ~/HelloWorld/hello.c
-|4,55,4,45,1598379209,"~/HelloWorld/hello.c"
-'8  4  45  ~/HelloWorld/hello.c
-|4,56,4,45,1598379209,"~/HelloWorld/hello.c"
-'9  7  0  ~/HelloWorld/hello.c
-|4,57,7,0,1598378711,"~/HelloWorld/hello.c"
+'0  1  7  ~/.git/COMMIT_EDITMSG
+|4,48,1,7,1606528855,"~/.git/COMMIT_EDITMSG"
+'1  13  18  ~/CPSC305/Labs/lab10/makefile
+|4,49,13,18,1606527680,"~/CPSC305/Labs/lab10/makefile"
+'2  3  12  ~/CPSC305/Labs/lab10/students.txt
+|4,50,3,12,1606527642,"~/CPSC305/Labs/lab10/students.txt"
+'3  6  0  ~/CPSC305/Labs/lab10/student.h
+|4,51,6,0,1606527618,"~/CPSC305/Labs/lab10/student.h"
+'4  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,52,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+'5  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,53,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+'6  26  0  ~/CPSC305/Labs/lab10/split.c
+|4,54,26,0,1606527424,"~/CPSC305/Labs/lab10/split.c"
+'7  13  18  ~/CPSC305/Labs/lab10/makefile
+|4,55,13,18,1606527299,"~/CPSC305/Labs/lab10/makefile"
+'8  13  0  ~/CPSC305/Labs/lab10/main.c
+|4,56,13,0,1606527276,"~/CPSC305/Labs/lab10/main.c"
+'9  2  0  ~/CPSC305/Labs/Lab9/fig11.c
+|4,57,2,0,1606526451,"~/CPSC305/Labs/Lab9/fig11.c"
 
 # Jumplist (newest first):
--'  2  71  ~/db-class/library.sql
-|4,39,2,71,1598896061,"~/db-class/library.sql"
--'  1  0  ~/db-class/library.sql
-|4,39,1,0,1598895984,"~/db-class/library.sql"
--'  1  56  ~/db-class/task1.env
-|4,39,1,56,1598895766,"~/db-class/task1.env"
--'  1  56  ~/db-class/task1.env
-|4,39,1,56,1598895766,"~/db-class/task1.env"
--'  1  56  ~/db-class/task1.env
-|4,39,1,56,1598895470,"~/db-class/task1.env"
--'  1  56  ~/db-class/task1.env
-|4,39,1,56,1598895470,"~/db-class/task1.env"
--'  1  13  ~/db-class/.git/COMMIT_EDITMSG
-|4,39,1,13,1598895062,"~/db-class/.git/COMMIT_EDITMSG"
--'  1  13  ~/db-class/.git/COMMIT_EDITMSG
-|4,39,1,13,1598895062,"~/db-class/.git/COMMIT_EDITMSG"
--'  1  13  ~/db-class/.git/COMMIT_EDITMSG
-|4,39,1,13,1598895062,"~/db-class/.git/COMMIT_EDITMSG"
--'  1  13  ~/db-class/.git/COMMIT_EDITMSG
-|4,39,1,13,1598895062,"~/db-class/.git/COMMIT_EDITMSG"
--'  1  13  ~/db-class/.git/COMMIT_EDITMSG
-|4,39,1,13,1598895062,"~/db-class/.git/COMMIT_EDITMSG"
--'  1  13  ~/db-class/.git/COMMIT_EDITMSG
-|4,39,1,13,1598895062,"~/db-class/.git/COMMIT_EDITMSG"
--'  1  13  ~/db-class/.git/COMMIT_EDITMSG
-|4,39,1,13,1598895062,"~/db-class/.git/COMMIT_EDITMSG"
--'  1  13  ~/db-class/.git/COMMIT_EDITMSG
-|4,39,1,13,1598895062,"~/db-class/.git/COMMIT_EDITMSG"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598402177,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598402177,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598402177,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598402177,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598402177,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598402177,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598402177,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598402177,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598402177,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598402177,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598402177,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598402177,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598402177,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598402177,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598402177,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598402177,"~/HelloWorld/hello.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  1  0  ~/HelloWorld/M2Lab.c
-|4,39,1,0,1598380131,"~/HelloWorld/M2Lab.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  46  ~/HelloWorld/hello.c
-|4,39,4,46,1598379254,"~/HelloWorld/hello.c"
--'  4  45  ~/HelloWorld/hello.c
-|4,39,4,45,1598379209,"~/HelloWorld/hello.c"
--'  4  45  ~/HelloWorld/hello.c
-|4,39,4,45,1598379209,"~/HelloWorld/hello.c"
--'  4  45  ~/HelloWorld/hello.c
-|4,39,4,45,1598379209,"~/HelloWorld/hello.c"
--'  4  45  ~/HelloWorld/hello.c
-|4,39,4,45,1598379209,"~/HelloWorld/hello.c"
--'  4  45  ~/HelloWorld/hello.c
-|4,39,4,45,1598379209,"~/HelloWorld/hello.c"
--'  4  45  ~/HelloWorld/hello.c
-|4,39,4,45,1598379209,"~/HelloWorld/hello.c"
+-'  1  7  ~/.git/COMMIT_EDITMSG
+|4,39,1,7,1606528855,"~/.git/COMMIT_EDITMSG"
+-'  13  18  ~/CPSC305/Labs/lab10/makefile
+|4,39,13,18,1606527680,"~/CPSC305/Labs/lab10/makefile"
+-'  13  18  ~/CPSC305/Labs/lab10/makefile
+|4,39,13,18,1606527680,"~/CPSC305/Labs/lab10/makefile"
+-'  3  12  ~/CPSC305/Labs/lab10/students.txt
+|4,39,3,12,1606527642,"~/CPSC305/Labs/lab10/students.txt"
+-'  3  12  ~/CPSC305/Labs/lab10/students.txt
+|4,39,3,12,1606527642,"~/CPSC305/Labs/lab10/students.txt"
+-'  3  12  ~/CPSC305/Labs/lab10/students.txt
+|4,39,3,12,1606527642,"~/CPSC305/Labs/lab10/students.txt"
+-'  3  12  ~/CPSC305/Labs/lab10/students.txt
+|4,39,3,12,1606527642,"~/CPSC305/Labs/lab10/students.txt"
+-'  1  0  ~/CPSC305/Labs/lab10/students.txt
+|4,39,1,0,1606527638,"~/CPSC305/Labs/lab10/students.txt"
+-'  1  0  ~/CPSC305/Labs/lab10/students.txt
+|4,39,1,0,1606527638,"~/CPSC305/Labs/lab10/students.txt"
+-'  1  0  ~/CPSC305/Labs/lab10/students.txt
+|4,39,1,0,1606527638,"~/CPSC305/Labs/lab10/students.txt"
+-'  1  0  ~/CPSC305/Labs/lab10/students.txt
+|4,39,1,0,1606527638,"~/CPSC305/Labs/lab10/students.txt"
+-'  6  0  ~/CPSC305/Labs/lab10/student.h
+|4,39,6,0,1606527618,"~/CPSC305/Labs/lab10/student.h"
+-'  6  0  ~/CPSC305/Labs/lab10/student.h
+|4,39,6,0,1606527618,"~/CPSC305/Labs/lab10/student.h"
+-'  6  0  ~/CPSC305/Labs/lab10/student.h
+|4,39,6,0,1606527618,"~/CPSC305/Labs/lab10/student.h"
+-'  6  0  ~/CPSC305/Labs/lab10/student.h
+|4,39,6,0,1606527618,"~/CPSC305/Labs/lab10/student.h"
+-'  6  0  ~/CPSC305/Labs/lab10/student.h
+|4,39,6,0,1606527618,"~/CPSC305/Labs/lab10/student.h"
+-'  6  0  ~/CPSC305/Labs/lab10/student.h
+|4,39,6,0,1606527618,"~/CPSC305/Labs/lab10/student.h"
+-'  6  0  ~/CPSC305/Labs/lab10/student.h
+|4,39,6,0,1606527618,"~/CPSC305/Labs/lab10/student.h"
+-'  6  0  ~/CPSC305/Labs/lab10/student.h
+|4,39,6,0,1606527618,"~/CPSC305/Labs/lab10/student.h"
+-'  1  0  ~/CPSC305/Labs/lab10/student.h
+|4,39,1,0,1606527575,"~/CPSC305/Labs/lab10/student.h"
+-'  1  0  ~/CPSC305/Labs/lab10/student.h
+|4,39,1,0,1606527575,"~/CPSC305/Labs/lab10/student.h"
+-'  1  0  ~/CPSC305/Labs/lab10/student.h
+|4,39,1,0,1606527575,"~/CPSC305/Labs/lab10/student.h"
+-'  1  0  ~/CPSC305/Labs/lab10/student.h
+|4,39,1,0,1606527575,"~/CPSC305/Labs/lab10/student.h"
+-'  1  0  ~/CPSC305/Labs/lab10/student.h
+|4,39,1,0,1606527575,"~/CPSC305/Labs/lab10/student.h"
+-'  1  0  ~/CPSC305/Labs/lab10/student.h
+|4,39,1,0,1606527575,"~/CPSC305/Labs/lab10/student.h"
+-'  1  0  ~/CPSC305/Labs/lab10/student.h
+|4,39,1,0,1606527575,"~/CPSC305/Labs/lab10/student.h"
+-'  1  0  ~/CPSC305/Labs/lab10/student.h
+|4,39,1,0,1606527575,"~/CPSC305/Labs/lab10/student.h"
+-'  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+-'  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+-'  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+-'  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+-'  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+-'  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+-'  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+-'  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+-'  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+-'  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+-'  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+-'  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+-'  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+-'  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+-'  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+-'  45  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,45,0,1606527570,"~/CPSC305/Labs/lab10/student.c"
+-'  1  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,1,0,1606527450,"~/CPSC305/Labs/lab10/student.c"
+-'  1  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,1,0,1606527450,"~/CPSC305/Labs/lab10/student.c"
+-'  1  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,1,0,1606527450,"~/CPSC305/Labs/lab10/student.c"
+-'  1  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,1,0,1606527450,"~/CPSC305/Labs/lab10/student.c"
+-'  1  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,1,0,1606527450,"~/CPSC305/Labs/lab10/student.c"
+-'  1  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,1,0,1606527450,"~/CPSC305/Labs/lab10/student.c"
+-'  1  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,1,0,1606527450,"~/CPSC305/Labs/lab10/student.c"
+-'  1  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,1,0,1606527450,"~/CPSC305/Labs/lab10/student.c"
+-'  1  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,1,0,1606527450,"~/CPSC305/Labs/lab10/student.c"
+-'  1  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,1,0,1606527450,"~/CPSC305/Labs/lab10/student.c"
+-'  1  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,1,0,1606527450,"~/CPSC305/Labs/lab10/student.c"
+-'  1  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,1,0,1606527450,"~/CPSC305/Labs/lab10/student.c"
+-'  1  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,1,0,1606527450,"~/CPSC305/Labs/lab10/student.c"
+-'  1  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,1,0,1606527450,"~/CPSC305/Labs/lab10/student.c"
+-'  1  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,1,0,1606527450,"~/CPSC305/Labs/lab10/student.c"
+-'  1  0  ~/CPSC305/Labs/lab10/student.c
+|4,39,1,0,1606527450,"~/CPSC305/Labs/lab10/student.c"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  1  55  ~/CPSC305/Labs/lab10/split.h
+|4,39,1,55,1606527446,"~/CPSC305/Labs/lab10/split.h"
+-'  26  0  ~/CPSC305/Labs/lab10/split.c
+|4,39,26,0,1606527424,"~/CPSC305/Labs/lab10/split.c"
+-'  26  0  ~/CPSC305/Labs/lab10/split.c
+|4,39,26,0,1606527424,"~/CPSC305/Labs/lab10/split.c"
+-'  26  0  ~/CPSC305/Labs/lab10/split.c
+|4,39,26,0,1606527424,"~/CPSC305/Labs/lab10/split.c"
+-'  26  0  ~/CPSC305/Labs/lab10/split.c
+|4,39,26,0,1606527424,"~/CPSC305/Labs/lab10/split.c"
+-'  26  0  ~/CPSC305/Labs/lab10/split.c
+|4,39,26,0,1606527424,"~/CPSC305/Labs/lab10/split.c"
+-'  26  0  ~/CPSC305/Labs/lab10/split.c
+|4,39,26,0,1606527424,"~/CPSC305/Labs/lab10/split.c"
+-'  26  0  ~/CPSC305/Labs/lab10/split.c
+|4,39,26,0,1606527424,"~/CPSC305/Labs/lab10/split.c"
+-'  26  0  ~/CPSC305/Labs/lab10/split.c
+|4,39,26,0,1606527424,"~/CPSC305/Labs/lab10/split.c"
+-'  26  0  ~/CPSC305/Labs/lab10/split.c
+|4,39,26,0,1606527424,"~/CPSC305/Labs/lab10/split.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/COMMIT_EDITMSG
+	*	1606528854	0
+	"	1	7
+	^	1	8
+	.	1	8
+	+	1	8
+
+> ~/CPSC305/Labs/lab10/makefile
+	*	1606527678	0
+	"	13	18
+	^	13	19
+	.	13	18
+	+	13	18
+
+> ~/CPSC305/Labs/lab10/students.txt
+	*	1606527641	0
+	"	3	12
+	^	3	13
+	.	3	12
+	+	3	12
+
+> ~/CPSC305/Labs/lab10/student.h
+	*	1606527616	0
+	"	6	0
+	^	6	0
+	.	5	10
+	+	1	7
+	+	10	30
+	+	1	0
+	+	2	0
+	+	3	1
+	+	4	1
+	+	5	10
+
+> ~/CPSC305/Labs/lab10/student.c
+	*	1606527568	0
+	"	45	0
+	^	45	1
+	.	44	2
+	+	45	0
+	+	8	1
+	+	9	1
+	+	10	1
+	+	11	1
+	+	12	1
+	+	16	1
+	+	20	1
+	+	21	1
+	+	22	1
+	+	23	2
+	+	24	1
+	+	25	1
+	+	26	1
+	+	27	2
+	+	28	2
+	+	29	2
+	+	30	2
+	+	31	2
+	+	32	2
+	+	33	1
+	+	34	1
+	+	35	1
+	+	36	1
+	+	40	1
+	+	41	1
+	+	42	2
+	+	43	3
+	+	44	2
+
+> ~/CPSC305/Labs/lab10/split.h
+	*	1606527445	0
+	"	1	55
+	^	1	56
+	.	1	55
+	+	1	55
+
+> ~/CPSC305/Labs/lab10/split.c
+	*	1606527423	0
+	"	26	0
+	^	26	1
+	.	26	1
+	+	27	0
+	+	6	1
+	+	7	1
+	+	8	1
+	+	9	1
+	+	10	1
+	+	11	1
+	+	12	2
+	+	13	2
+	+	14	2
+	+	16	2
+	+	15	0
+	+	16	1
+	+	17	1
+	+	18	2
+	+	19	1
+	+	20	2
+	+	21	2
+	+	22	3
+	+	23	2
+	+	24	1
+	+	25	1
+	+	26	1
+
+> ~/CPSC305/Labs/lab10/main.c
+	*	1606527275	0
+	"	13	0
+	^	13	1
+	.	13	1
+	+	14	1
+	+	7	0
+	+	8	1
+	+	9	1
+	+	10	2
+	+	12	1
+	+	13	1
+
+> ~/CPSC305/Labs/Lab9/fig11.c
+	*	1606526450	0
+	"	2	0
+	^	26	0
+	.	26	0
+	+	25	15
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	9	35
+	+	11	0
+	+	12	1
+	+	13	1
+	+	15	0
+	+	14	0
+	+	16	0
+	+	17	1
+	+	18	0
+	+	19	1
+	+	20	1
+	+	21	1
+	+	22	1
+	+	24	0
+	+	23	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	1
+	+	12	1
+	+	13	1
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	1
+	+	18	0
+	+	19	1
+	+	20	1
+	+	21	2
+	+	22	1
+	+	23	0
+	+	24	0
+	+	25	2
+	+	26	0
+
+> ~/CPSC305/Labs/algorithms.c
+	*	1606525521	0
+	"	109	0
+	^	109	0
+	.	108	1
+	+	10	1
+	+	11	1
+	+	9	1
+	+	11	1
+	+	12	1
+	+	13	2
+	+	14	1
+	+	15	2
+	+	16	1
+	+	67	10
+	+	23	21
+	+	18	0
+	+	19	1
+	+	20	1
+	+	21	1
+	+	22	2
+	+	27	0
+	+	24	0
+	+	7	0
+	+	18	0
+	+	25	62
+	+	25	1
+	+	27	0
+	+	37	0
+	+	28	0
+	+	30	2
+	+	31	2
+	+	32	2
+	+	33	3
+	+	34	2
+	+	35	3
+	+	36	1
+	+	67	10
+	+	45	7
+	+	39	1
+	+	40	2
+	+	41	2
+	+	42	1
+	+	43	1
+	+	44	2
+	+	45	2
+	+	49	44
+	+	47	1
+	+	48	2
+	+	49	39
+	+	61	61
+	+	52	1
+	+	53	1
+	+	54	2
+	+	55	3
+	+	56	2
+	+	57	1
+	+	58	1
+	+	59	2
+	+	60	1
+	+	61	56
+	+	67	8
+	+	63	1
+	+	64	2
+	+	65	2
+	+	66	2
+	+	68	0
+	+	67	2
+	+	78	13
+	+	70	2
+	+	71	3
+	+	72	3
+	+	73	4
+	+	74	3
+	+	75	3
+	+	76	2
+	+	77	2
+	+	78	2
+	+	86	51
+	+	81	1
+	+	82	1
+	+	83	1
+	+	84	2
+	+	85	3
+	+	86	40
+	+	90	1
+	+	87	0
+	+	102	3
+	+	90	0
+	+	92	1
+	+	93	2
+	+	94	3
+	+	95	3
+	+	97	0
+	+	98	1
+	+	99	2
+	+	100	1
+	+	101	1
+	+	109	0
+	+	103	1
+	+	104	1
+	+	105	1
+	+	106	2
+	+	107	1
+	+	108	1
+
+> ~/CPSC305/Tiny/teasm.py
+	*	1606516560	0
+	"	148	19
+	^	148	20
+	.	147	34
+	+	48	51
+	+	48	72
+	+	49	31
+	+	50	19
+	+	51	58
+	+	53	37
+	+	54	50
+	+	56	17
+	+	57	20
+	+	58	25
+	+	59	27
+	+	60	39
+	+	61	24
+	+	103	29
+	+	62	138
+	+	63	133
+	+	64	79
+	+	65	37
+	+	66	8
+	+	68	41
+	+	69	37
+	+	70	38
+	+	71	26
+	+	73	29
+	+	75	68
+	+	76	45
+	+	77	52
+	+	78	43
+	+	80	51
+	+	81	51
+	+	82	50
+	+	83	68
+	+	84	29
+	+	85	68
+	+	87	62
+	+	88	68
+	+	89	48
+	+	90	68
+	+	91	29
+	+	92	51
+	+	94	62
+	+	96	20
+	+	96	163
+	+	98	47
+	+	100	68
+	+	101	34
+	+	102	45
+	+	103	29
+	+	104	45
+	+	105	48
+	+	106	68
+	+	107	29
+	+	108	51
+	+	109	51
+	+	110	58
+	+	111	20
+	+	111	161
+	+	113	45
+	+	114	45
+	+	115	49
+	+	116	45
+	+	117	49
+	+	118	45
+	+	119	49
+	+	120	45
+	+	121	49
+	+	122	45
+	+	123	49
+	+	124	45
+	+	125	49
+	+	126	45
+	+	127	48
+	+	128	45
+	+	129	71
+	+	131	51
+	+	132	29
+	+	133	0
+	+	134	51
+	+	135	58
+	+	136	58
+	+	137	54
+	+	139	90
+	+	140	99
+	+	142	37
+	+	143	64
+	+	147	0
+	+	136	20
+	+	137	12
+	+	138	4
+	+	139	35
+	+	139	0
+	+	140	0
+	+	141	0
+	+	142	20
+	+	143	24
+	+	144	28
+	+	145	16
+	+	147	34
+
+> ~/CPSC305/Tiny/memory.h
+	*	1606515582	0
+	"	2	30
+	^	2	31
+	.	1	76
+	+	1	356
+	+	1	159
+	+	1	76
+
+> ~/CPSC305/Tiny/memory.c
+	*	1606515520	0
+	"	6	0
+	^	6	0
+	.	5	0
+	+	1	356
+	+	1	18
+	+	3	0
+	+	4	26
+	+	7	64
+	+	9	0
+	+	11	62
+	+	5	0
+
+> ~/CPSC305/Tiny/memory_system.h
+	*	1606515453	0
+	"	6	0
+	^	6	0
+	.	5	51
+	+	1	166
+	+	1	14
+	+	3	0
+	+	4	54
+	+	5	51
+
+> ~/CPSC305/Tiny/memory_systems.c
+	*	1606515374	0
+	"	89	0
+	^	89	1
+	.	89	0
+	+	52	1333
+	+	1	18
+	+	2	26
+	+	3	19
+	+	4	0
+	+	5	28
+	+	6	25
+	+	8	16
+	+	9	63
+	+	10	63
+	+	11	62
+	+	12	74
+	+	13	0
+	+	15	39
+	+	17	0
+	+	19	40
+	+	20	0
+	+	20	82
+	+	22	0
+	+	24	32
+	+	25	40
+	+	26	49
+	+	27	53
+	+	28	77
+	+	29	46
+	+	30	25
+	+	31	1
+	+	32	0
+	+	34	23
+	+	35	48
+	+	36	49
+	+	37	23
+	+	38	16
+	+	39	6
+	+	41	0
+	+	43	32
+	+	44	44
+	+	45	49
+	+	46	49
+	+	47	50
+	+	49	0
+	+	51	0
+	+	52	51
+	+	53	38
+	+	54	33
+	+	55	6
+	+	56	14
+	+	58	0
+	+	60	25
+	+	61	38
+	+	62	9
+	+	63	37
+	+	65	0
+	+	67	62
+	+	68	71
+	+	69	75
+	+	70	76
+	+	71	0
+	+	71	125
+	+	72	125
+	+	73	6
+	+	75	34
+	+	76	43
+	+	77	32
+	+	78	0
+	+	80	37
+	+	81	17
+	+	82	32
+	+	83	19
+	+	84	50
+	+	85	40
+	+	86	19
+	+	87	6
+	+	88	12
+	+	89	0
+
+> ~/CPSC305/Tiny/makefile
+	*	1606514949	0
+	"	24	1
+	^	24	2
+	.	24	2
+	+	25	0
+	+	9	0
+	+	24	2
+
+> ~/CPSC305/Tiny/main.c
+	*	1606514848	0
+	"	61	0
+	^	61	1
+	.	60	2
+	+	53	189
+	+	2	19
+	+	4	0
+	+	5	19
+	+	6	26
+	+	7	26
+	+	8	16
+	+	10	0
+	+	12	16
+	+	13	32
+	+	14	16
+	+	15	24
+	+	16	19
+	+	17	36
+	+	18	29
+	+	19	25
+	+	20	35
+	+	21	26
+	+	22	26
+	+	23	47
+	+	24	33
+	+	25	25
+	+	26	35
+	+	27	26
+	+	28	30
+	+	29	54
+	+	30	27
+	+	31	47
+	+	32	22
+	+	33	49
+	+	34	31
+	+	35	49
+	+	36	35
+	+	37	49
+	+	38	38
+	+	39	25
+	+	40	19
+	+	41	47
+	+	42	35
+	+	43	30
+	+	44	30
+	+	45	54
+	+	46	30
+	+	47	25
+	+	48	32
+	+	49	32
+	+	50	21
+	+	51	35
+	+	52	0
+	+	53	18
+	+	54	37
+	+	55	44
+	+	56	15
+	+	57	17
+	+	58	31
+	+	59	3
+	+	60	2
+
+> ~/CPSC305/Tiny/isa.h
+	*	1606514619	0
+	"	14	0
+	^	14	0
+	.	13	35
+	+	1	218
+	+	2	16
+	+	3	12
+	+	4	12
+	+	5	12
+	+	6	14
+	+	7	17
+	+	8	19
+	+	9	16
+	+	10	19
+	+	11	2
+	+	12	0
+	+	13	35
+
+> ~/CPSC305/Tiny/isa.c
+	*	1606514551	0
+	"	76	0
+	^	76	1
+	.	75	17
+	+	61	371
+	+	1	18
+	+	2	19
+	+	3	20
+	+	5	0
+	+	6	16
+	+	8	0
+	+	10	0
+	+	12	0
+	+	14	0
+	+	16	0
+	+	18	44
+	+	19	31
+	+	20	25
+	+	21	17
+	+	23	0
+	+	25	0
+	+	27	28
+	+	28	26
+	+	29	39
+	+	30	21
+	+	31	33
+	+	32	22
+	+	33	10
+	+	34	14
+	+	35	25
+	+	36	23
+	+	37	36
+	+	38	22
+	+	39	9
+	+	40	23
+	+	41	22
+	+	42	34
+	+	43	36
+	+	44	22
+	+	45	9
+	+	46	23
+	+	47	15
+	+	48	39
+	+	49	9
+	+	50	44
+	+	51	27
+	+	52	4
+	+	53	9
+	+	54	73
+	+	55	34
+	+	56	23
+	+	57	34
+	+	58	9
+	+	59	11
+	+	60	28
+	+	61	28
+	+	62	7
+	+	63	46
+	+	64	22
+	+	65	36
+	+	66	22
+	+	67	9
+	+	68	12
+	+	69	24
+	+	70	30
+	+	72	0
+	+	74	48
+	+	75	17
+
+> ~/CPSC305/Tiny/cpu.h
+	*	1606514153	0
+	"	61	0
+	^	61	0
+	.	61	0
+	+	61	27
+	+	2	16
+	+	3	16
+	+	4	16
+	+	5	16
+	+	6	16
+	+	7	16
+	+	8	16
+	+	9	16
+	+	10	16
+	+	11	16
+	+	12	16
+	+	13	16
+	+	14	16
+	+	15	16
+	+	17	0
+	+	19	13
+	+	20	13
+	+	21	13
+	+	22	13
+	+	23	13
+	+	24	13
+	+	61	0
+	+	25	13
+	+	27	0
+	+	29	12
+	+	30	12
+	+	31	12
+	+	33	0
+	+	35	13
+	+	36	13
+	+	37	13
+	+	38	12
+	+	39	12
+	+	40	12
+	+	41	12
+	+	42	12
+	+	43	12
+	+	44	12
+	+	45	12
+	+	46	12
+	+	47	12
+	+	48	14
+	+	49	14
+	+	50	14
+	+	51	14
+	+	52	14
+	+	54	0
+	+	55	33
+	+	56	21
+	+	57	32
+	+	58	12
+	+	59	19
+	+	61	0
+
+> ~/CPSC305/Tiny/cup.h
+	*	1606513974	0
+	"	1	0
+
+> ~/CPSC305/Tiny/cpu.c
+	*	1606513904	0
+	"	55	0
+	^	55	0
+	.	54	60
+	+	3	19
+	+	18	25
+	+	19	65
+	+	23	25
+	+	26	517
+	+	27	23
+	+	29	0
+	+	31	17
+	+	33	0
+	+	35	52
+	+	37	0
+	+	39	32
+	+	40	15
+	+	41	33
+	+	42	43
+	+	44	0
+	+	46	49
+	+	48	0
+	+	50	56
+	+	52	0
+	+	54	60
+
+> ~/CPSC305/Tiny/bit_functions.h
+	*	1606513622	0
+	"	4	0
+	^	4	0
+	.	3	38
+	+	1	138
+	+	1	24
+	+	2	37
+	+	3	38
+
+> ~/CPSC305/Tiny/bit_functions.c
+	*	1606513583	0
+	"	22	0
+	^	22	0
+	.	21	31
+	+	1	568
+	+	1	47
+	+	2	69
+	+	3	53
+	+	4	63
+	+	5	25
+	+	6	29
+	+	7	26
+	+	8	16
+	+	9	16
+	+	11	38
+	+	13	39
+	+	16	39
+	+	17	0
+	+	9	15
+	+	13	38
+	+	19	0
+	+	17	28
+	+	19	0
+	+	12	0
+	+	21	31
+
+> ~/test.c
+	*	1605791245	0
+	"	1	7
+	^	1	8
+	.	1	7
+	+	4	15
+	+	1	7
+
+> ~/db-class/practice/task5/pages/index.js
+	*	1605551245	0
+	"	10	15
+	^	10	16
+	.	10	16
+	+	46	31
+	+	47	42
+	+	48	4
+	+	58	36
+	+	55	2
+	+	59	0
+	+	7	28
+	+	20	1
+	+	20	28
+	+	20	27
+	+	20	22
+	+	19	89
+	+	21	0
+	+	53	46
+	+	18	1
+	+	19	0
+	+	19	25
+	+	19	72
+	+	20	1
+	+	21	0
+	+	17	0
+	+	15	0
+	+	20	16
+	+	56	75
+	+	58	18
+	+	59	0
+	+	56	1
+	+	58	1
+	+	57	3
+	+	25	31
+	+	26	42
+	+	40	0
+	+	38	27
+	+	28	0
+	+	29	1
+	+	30	9
+	+	34	10
+	+	35	0
+	+	37	1
+	+	38	1
+	+	39	1
+	+	41	0
+	+	6	28
+	+	13	0
+	+	10	0
+	+	10	25
+	+	11	0
+	+	33	47
+	+	10	21
+	+	28	34
+	+	29	0
+	+	9	0
+	+	10	1
+	+	11	0
+	+	10	16
+
+> ~/db-class/practice/task5/index.js
+	*	1605550959	0
+	"	1	0
+
+> ~/db-class/.git/COMMIT_EDITMSG
+	*	1605550858	0
+	"	1	4
+	^	1	5
+	.	1	4
+	+	2	0
+	+	1	12
+	+	2	0
+	+	1	4
+
+> ~/CPSC305/Labs/Lab13/makefile
+	*	1603729021	0
+	"	11	6
+	^	11	7
+	.	11	1
+	+	12	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	4	1
+	+	5	43
+	+	6	23
+	+	7	1
+	+	8	33
+	+	9	1
+	+	10	0
+	+	11	1
+
+> ~/CPSC305/Labs/Lab13/main.c
+	*	1603728677	0
+	"	5	9
+	^	5	10
+	.	5	10
+	+	3	38
+	+	33	0
+	+	32	3
+	+	32	0
+	+	1	695
+	+	1	18
+	+	2	19
+	+	3	17
+	+	4	22
+	+	6	24
+	+	7	0
+	+	9	18
+	+	10	25
+	+	11	9
+	+	12	0
+	+	8	0
+	+	13	47
+	+	14	19
+	+	15	27
+	+	16	19
+	+	17	29
+	+	18	19
+	+	19	29
+	+	20	0
+	+	21	33
+	+	22	36
+	+	23	78
+	+	5	10
+
+> ~/CPSC305/Labs/Lab13/rawdouble.c
+	*	1603728493	0
+	"	19	1
+	^	19	2
+	.	19	0
+	+	30	86
+	+	31	0
+	+	1	1061
+	+	1	18
+	+	2	22
+	+	4	63
+	+	5	8
+	+	6	19
+	+	7	28
+	+	8	17
+	+	9	50
+	+	10	18
+	+	11	55
+	+	12	43
+	+	13	19
+	+	14	12
+	+	15	20
+	+	16	14
+	+	17	1
+	+	20	63
+	+	21	54
+	+	22	67
+	+	23	58
+	+	24	1
+	+	26	27
+	+	27	32
+	+	28	36
+	+	29	62
+	+	30	0
+	+	31	0
+	+	30	84
+	+	19	0
+
+> ~/CPSC305/Labs/main.c
+	*	1603728248	0
+	"	1	0
+
+> ~/CPSC305/Labs/Lab13/rawdouble.h
+	*	1603728107	0
+	"	4	36
+	^	4	37
+	.	4	36
+	+	4	36
+
+> ~/CPSC305/Labs/Lab12/BooleanTools.c
+	*	1603725989	0
+	"	51	10
+	^	51	11
+	.	51	10
+	+	60	1
+	+	59	0
+	+	58	10
+	+	52	11
+	+	58	14
+	+	50	15
+	+	52	3
+	+	53	0
+	+	52	24
+	+	51	9
+	+	59	1
+	+	58	17
+	+	58	36
+	+	54	12
+	+	58	17
+	+	58	1
+	+	56	24
+	+	57	37
+	+	52	23
+	+	51	10
+
+> ~/CPSC305/Labs/Lab9/fig6.c
+	*	1603321231	0
+	"	3	0
+	^	3	0
+	.	2	19
+	+	21	0
+	+	13	28
+	+	4	0
+	+	2	19
+
+> ~/ml-class2/Labs/pandas.ipynb
+	*	1603321197	0
+	"	212	0
+
+> ~/CPSC305/test.c
+	*	1602165438	0
+	"	3	4
+	^	4	35
+	.	4	34
+	+	3	111
+	+	3	1
+	+	3	12
+	+	3	23
+	+	3	39
+	+	3	55
+	+	3	94
+	+	6	0
+	+	3	154
+	+	3	131
+	+	5	0
+	+	3	127
+	+	3	150
+	+	1	17
+	+	3	109
+	+	3	149
+	+	3	128
+	+	3	150
+	+	3	109
+	+	3	149
+	+	3	110
+	+	3	150
+	+	3	137
+	+	3	41
+	+	4	34
+
+> ~/CPSC305/struct.c
+	*	1602160376	0
+	"	43	5
+	^	17	6
+	.	17	5
+	+	1	18
+	+	31	0
+	+	8	31
+	+	10	28
+	+	5	0
+	+	6	1
+	+	7	1
+	+	8	1
+	+	9	1
+	+	10	1
+	+	11	0
+	+	33	36
+	+	83	0
+	+	83	1
+	+	11	1
+	+	34	14
+	+	35	2
+	+	6	7
+	+	42	0
+	+	28	23
+	+	20	27
+	+	21	33
+	+	20	26
+	+	22	1
+	+	43	13
+	+	83	0
+	+	82	0
+	+	1	18
+	+	2	18
+	+	21	134
+	+	21	150
+	+	21	148
+	+	21	72
+	+	28	22
+	+	47	15
+	+	56	13
+	+	82	0
+	+	62	24
+	+	60	11
+	+	61	11
+	+	62	23
+	+	61	23
+	+	60	23
+	+	66	14
+	+	65	11
+	+	64	1
+	+	65	8
+	+	66	11
+	+	64	1
+	+	66	11
+	+	64	1
+	+	73	25
+	+	72	18
+	+	82	0
+	+	75	11
+	+	68	24
+	+	2	37
+	+	68	6
+	+	2	19
+	+	3	19
+	+	3	0
+	+	68	1
+	+	75	11
+	+	68	1
+	+	3	19
+	+	30	65
+	+	77	43
+	+	81	1
+	+	26	0
+	+	79	14
+	+	31	0
+	+	18	23
+	+	17	5
+	i	32	2
+
+> ~/CPSC305/test
+	*	1602158817	0
+	"	3	0
+	^	3	0
+	.	2	11
+	+	2	11
+
+> ~/CPSC305/Labs/Lab11/makefile
+	*	1602155335	0
+	"	23	0
+	^	23	1
+	.	23	0
+	+	24	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	8	19
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	9	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+
+> ~/CPSC305/Labs/Lab11/part.h
+	*	1602154119	0
+	"	10	0
+	^	10	0
+	.	9	24
+	+	1	272
+	+	2	0
+	+	4	33
+	+	5	44
+	+	6	33
+	+	7	45
+	+	9	0
+	+	8	36
+	+	9	24
+
+> ~/CPSC305/Labs/Lab11/part.c
+	*	1602154041	0
+	"	10	0
+	^	10	0
+	.	9	25
+	+	1	242
+	+	1	18
+	+	3	0
+	+	5	0
+	+	5	104
+	+	6	1
+	+	7	24
+	+	9	0
+	+	9	25
+
+> ~/CPSC305/Labs/Lab11/main.c
+	*	1602153975	0
+	"	50	1
+	^	50	2
+	.	50	0
+	+	51	14
+	+	1	1
+	+	2	19
+	+	4	0
+	+	5	95
+	+	6	83
+	+	8	18
+	+	9	21
+	+	10	15
+	+	11	31
+	+	12	62
+	+	13	21
+	+	14	33
+	+	15	24
+	+	16	31
+	+	17	23
+	+	18	32
+	+	19	71
+	+	20	64
+	+	21	31
+	+	22	27
+	+	23	27
+	+	25	0
+	+	27	25
+	+	28	23
+	+	29	74
+	+	30	0
+	+	31	0
+	+	32	21
+	+	33	23
+	+	34	0
+	+	35	27
+	+	36	64
+	+	37	42
+	+	38	34
+	+	39	0
+	+	40	29
+	+	41	43
+	+	42	32
+	+	43	41
+	+	44	31
+	+	45	42
+	+	46	29
+	+	47	4
+	+	48	13
+	+	49	0
+	+	51	15
+	+	50	0
+
+> ~/CPSC305/Cars/main.c
+	*	1602032129	0
+	"	1	9
+	^	1	10
+	.	1	9
+	+	27	3
+	+	28	4
+	+	28	78
+	+	28	38
+	+	28	39
+	+	29	2
+	+	29	32
+	+	30	0
+	+	31	3
+	+	30	4
+	+	34	2
+	+	35	1
+	+	36	2
+	+	37	2
+	+	38	0
+	+	37	174
+	+	38	817
+	+	38	921
+	+	38	2
+	+	39	0
+	+	40	1
+	+	40	24
+	+	41	2
+	+	42	3
+	+	43	2
+	+	44	3
+	+	46	12256
+	+	47	0
+	+	46	7587
+	+	47	0
+	+	46	4514
+	+	47	0
+	+	45	3
+	+	45	28
+	+	45	25
+	+	45	26
+	+	46	1
+	+	46	32
+	+	46	58
+	+	46	57
+	+	46	84
+	+	46	83
+	+	46	82
+	+	46	81
+	+	46	80
+	+	46	84
+	+	46	32
+	+	46	58
+	+	61	2
+	+	40	2
+	+	41	3
+	+	42	3
+	+	43	2
+	+	44	3
+	+	45	3
+	+	46	2
+	+	47	3
+	+	48	3
+	+	49	2
+	+	50	3
+	+	51	3
+	+	52	2
+	+	53	3
+	+	54	3
+	+	55	2
+	+	56	3
+	+	57	3
+	+	58	4
+	+	59	3
+	+	60	2
+	+	65	0
+	+	1	15
+	+	3	0
+	+	2	15
+	+	33	0
+	+	16	23
+	+	1	9
+
+> ~/CPSC305/Cars/car.c
+	*	1602032067	0
+	"	10	18
+	^	10	19
+	.	10	18
+	+	73	27
+	+	73	30
+	+	73	27
+	+	73	25
+	+	8	42
+	+	25	0
+	+	24	16
+	+	27	37
+	+	31	1
+	+	33	25
+	+	37	0
+	+	34	25
+	+	39	31
+	+	41	0
+	+	40	18
+	+	41	1
+	+	43	34
+	+	53	0
+	+	52	84
+	+	55	83
+	+	65	0
+	+	64	38
+	+	67	47
+	+	71	0
+	+	70	37
+	+	77	0
+	+	76	37
+	+	82	0
+	+	81	33
+	+	83	0
+	+	78	0
+	+	109	0
+	+	87	0
+	+	82	0
+	+	92	0
+	+	91	32
+	+	97	0
+	+	96	32
+	+	104	0
+	+	1	0
+	+	1	18
+	+	3	0
+	+	1	0
+	+	3	0
+	+	2	9
+	+	15	1
+	+	11	29
+	+	14	0
+	+	11	31
+	+	14	0
+	+	10	34
+	+	15	38
+	+	16	81
+	+	17	61
+	+	16	31
+	+	17	125
+	+	21	1
+	+	23	13
+	+	24	9
+	+	34	30
+	+	20	0
+	+	17	0
+	+	10	0
+	+	35	14
+	+	40	114
+	+	45	1
+	+	52	14
+	+	52	13
+	+	36	0
+	+	46	31
+	+	52	13
+	+	44	9
+	+	46	31
+	+	47	0
+	+	46	18
+	+	52	12
+	+	53	1
+	+	62	27
+	+	58	37
+	+	62	26
+	+	63	0
+	+	68	0
+	+	10	18
+
+> ~/CPSC305/Cars/makefile
+	*	1602024028	0
+	"	11	17
+	^	11	18
+	.	11	17
+	+	4	8
+	+	3	14
+	+	4	20
+	+	6	20
+	+	8	17
+	+	7	25
+	+	11	17
+
+> ~/CPSC305/Cars/car.h
+	*	1602011323	0
+	"	1	21
+	.	1	21
+	+	1	21
+
+> ~/CPSC305/Cars/file.txt
+	*	1602006884	0
+	"	1	0
+
+> ~/db-class/practice/task4/server4.js
+	*	1601988052	0
+	"	47	2
+	^	263	3
+	.	264	0
+	+	264	0
+
+> ~/db-class/practice/task4/package-lock.json
+	*	1601987728	0
+	"	259	0
+
+> ~/db-class/practice/task4/package.json
+	*	1601987705	0
+	"	1	0
+
+> ~/db-class/practice/task4/.env
+	*	1601986536	0
+	"	3	21
+	^	3	22
+	.	3	21
+	+	3	21
+
+> ~/db-class/practice/task3/server3.js
+	*	1601985893	0
+	"	180	16
+	^	180	17
+	.	180	16
+	+	66	44
+	+	67	0
+	+	66	43
+	+	70	1
+	+	68	0
+	+	67	123
+	+	67	139
+	+	67	105
+	+	67	173
+	+	67	130
+	+	67	206
+	+	67	86
+	+	67	152
+	+	66	28
+	+	65	32
+	+	66	1
+	+	67	2
+	+	67	142
+	+	68	3
+	+	69	0
+	+	66	30
+	+	66	73
+	+	67	15
+	+	66	30
+	+	67	0
+	+	126	7
+	+	122	26
+	+	126	0
+	+	122	26
+	+	128	0
+	+	121	48
+	+	128	0
+	+	126	33
+	+	128	0
+	+	126	34
+	+	127	102
+	+	128	3
+	+	129	0
+	+	127	40
+	+	126	33
+	+	122	24
+	+	126	33
+	+	122	24
+	+	126	31
+	+	127	99
+	+	121	31
+	+	124	70
+	+	122	29
+	+	124	68
+	+	121	56
+	+	124	52
+	+	127	91
+	+	126	16
+	+	121	34
+	+	123	17
+	+	122	0
+	+	126	33
+	+	131	2
+	+	167	36
+	+	169	29
+	+	174	9
+	+	173	70
+	+	186	0
+	+	185	27
+	+	185	14
+	+	175	81
+	+	181	83
+	+	186	1
+	+	186	0
+	+	183	17
+	+	178	19
+	+	186	0
+	+	184	2
+	+	185	13
+	+	178	5
+	+	186	1
+	+	173	33
+	+	174	0
+	+	172	31
+	+	173	34
+	+	178	5
+	+	178	30
+	+	179	0
+	+	186	0
+	+	172	7
+	+	173	1
+	+	174	0
+	+	178	0
+	+	179	3
+	+	180	0
+	+	179	32
+	+	180	2
+	+	177	4
+	+	185	30
+	+	178	0
+	+	171	58
+	+	177	3
+	+	178	6
+	+	184	1
+	+	180	16
+
+> ~/db-class/practice/task2/js1.js
+	*	1601917145	0
+	"	126	42
+	^	86	27
+	.	86	26
+	+	38	24
+	+	39	0
+	+	41	21
+	+	59	61
+	+	63	0
+	+	65	0
+	+	62	1
+	+	63	0
+	+	62	1
+	+	59	66
+	+	62	0
+	+	60	42
+	+	63	0
+	+	59	28
+	+	60	0
+	+	60	42
+	+	61	20
+	+	112	104
+	+	113	108
+	+	114	108
+	+	61	6
+	+	64	13
+	+	83	1022
+	+	83	380
+	+	83	415
+	+	83	459
+	+	83	524
+	+	83	455
+	+	83	1017
+	+	83	1022
+	+	83	699
+	+	83	735
+	+	83	817
+	+	83	897
+	+	83	1016
+	+	83	20
+	+	83	42
+	+	83	351
+	+	83	79
+	+	83	56
+	+	83	18
+	+	83	90
+	+	83	57
+	+	83	94
+	+	83	351
+	+	83	110
+	+	83	300
+	+	83	351
+	+	83	300
+	+	83	349
+	+	100	59
+	+	100	60
+	+	100	1
+	+	83	365
+	+	83	334
+	+	83	18
+	+	83	240
+	+	83	321
+	+	83	216
+	+	83	286
+	+	83	245
+	+	83	18
+	+	86	24
+	+	86	42
+	+	85	15
+	+	86	16
+	+	86	73
+	+	100	58
+	+	87	0
+	+	86	36
+	+	86	31
+	+	87	0
+	+	86	23
+	+	87	26
+	+	86	14
+	+	85	13
+	+	88	27
+	+	100	33
+	+	83	20
+	+	85	0
+	+	83	42
+	+	85	24
+	+	85	32
+	+	83	20
+	+	85	0
+	+	86	0
+	+	85	17
+	+	84	21
+	+	86	36
+	+	87	22
+	+	88	30
+	+	94	27
+	+	93	15
+	+	100	1
+	+	93	13
+	+	94	32
+	+	100	0
+	+	100	1
+	+	101	0
+	+	86	26
+
+> ~/CPSC305/Labs/Lab9/fig9.c
+	*	1601685848	0
+	"	2	2
+	^	3	0
+	.	2	0
+	+	16	0
+	+	1	18
+	+	3	0
+	+	2	0
+
+> ~/CPSC305/Labs/Lab9/fig7.txt
+	*	1601685387	0
+	"	3	12
+	^	3	13
+	.	3	12
+	+	3	12
+
+> ~/CPSC305/Labs/Lab9/fig5.c
+	*	1601684757	0
+	"	20	0
+	^	20	1
+	.	20	0
+	+	20	0
+
+> ~/CPSC305/Labs/Lab9/fig4.c
+	*	1601684453	0
+	"	13	0
+	^	13	1
+	.	13	0
+	+	13	0
+
+> ~/ml-class2/Labs/decision_tress.ipynb
+	*	1601044105	0
+	"	1	0
+
+> ~/ml-class2/.git/COMMIT_EDITMSG
+	*	1601036049	0
+	"	1	22
+	^	1	23
+	.	1	22
+	+	7	0
+	+	1	22
+
+> ~/CPSC305/figure12_8.c
+	*	1600956333	0
+	"	3	14
+	^	3	15
+	.	3	14
+	+	9	0
+	+	4	0
+	+	3	14
+
+> ~/CPSC305/figure10_8.c
+	*	1600955976	0
+	"	4	0
+	^	4	1
+	.	4	1
+	+	12	0
+	+	6	1
+	+	4	1
+	+	6	1
+	+	4	1
+
+> ~/CPSC305/figure8_8.c
+	*	1600955680	0
+	"	10	69
+	^	10	70
+	.	10	69
+	+	8	38
+	+	10	83
+	+	17	0
+	+	10	46
+	+	11	56
+	+	10	69
+
+> ~/CPSC305/figure6_8.c
+	*	1600955196	0
+	"	8	0
+	^	8	1
+	.	8	0
+	+	5	41
+	+	5	39
+	+	5	24
+	+	8	0
+
+> ~/CPSC305/figure
+	*	1600955177	0
+	"	3	0
+	^	3	0
+	.	2	11
+	+	1	18
+	+	2	11
+
+> ~/CPSC305/figure5_8.c
+	*	1600954854	0
+	"	8	0
+	^	8	1
+	.	8	0
+	+	8	0
+
+> ~/CPSC305/figure4_8.c
+	*	1600954690	0
+	"	6	0
+	^	6	1
+	.	6	0
+	+	6	0
+
+> ~/CPSC305/figure11.c
+	*	1600870973	0
+	"	13	12
+	^	13	13
+	.	13	12
+	+	3	19
+	+	15	57
+	+	33	0
+	+	30	33
+	+	13	12
+
+> ~/CPSC305/figure9.c
+	*	1600870185	0
+	"	3	18
+	^	3	19
+	.	3	19
+	+	8	0
+	+	7	6
+	+	3	19
+
+> ~/CPSC305/figure6.c
+	*	1600451359	0
+	"	13	0
+	^	13	1
+	.	13	0
+	+	13	0
+
+> ~/CPSC305/figure5.c
+	*	1600451110	0
+	"	4	3
+	^	4	4
+	.	4	3
+	+	13	0
+	+	3	25
+	+	12	0
+	+	3	4
+	+	4	3
+
+> ~/CPSC305/figure4.c
+	*	1600450857	0
+	"	14	0
+	^	14	0
+	.	13	1
+	+	2	18
+	+	3	0
+	+	15	0
+	+	9	28
+	+	13	1
+
+> ~/db-class/practice/task2/js1.ja
+	*	1600103035	0
+	"	1	0
+
+> ~/CPSC305/algorithms.c
+	*	1599873223	0
+	"	26	17
+	^	26	18
+	.	26	17
+	+	27	0
+	+	4	11
+	+	13	9
+	+	14	16
+	+	15	9
+	+	16	16
+	+	17	9
+	+	19	9
+	+	20	34
+	+	4	16
+	+	13	20
+	+	14	21
+	+	15	20
+	+	16	21
+	+	17	20
+	+	12	0
+	+	11	0
+	+	8	0
+	+	7	0
+	+	12	11
+	+	13	9
+	+	14	16
+	+	15	9
+	+	16	16
+	+	17	9
+	+	19	11
+	+	20	37
+	+	26	17
+
+> ~/Labs
+	*	1599599681	0
+	"	1	0
+
+> ~/car.c
+	*	1599599656	0
+	"	1	0
+
+> ~/CPSC305/car.c
+	*	1599599462	0
+	"	11	0
+	^	11	0
+	.	11	0
+	+	12	0
+	+	2	0
+	+	1	16
+	+	2	0
+	+	3	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+
+> ~/CPSC305/car.h
+	*	1599599171	0
+	"	25	25
+	^	25	26
+	.	25	25
+	+	26	0
+	+	12	1
+	+	11	10
+	+	26	0
+	+	13	0
+	+	25	25
+
+> ~/ml-class2/Labs/numpy.ipynb
+	*	1599584446	0
+	"	228	0
+
+> ~/db-class/practice/task1/task1.sql
+	*	1599501819	0
+	"	41	22
+	^	41	23
+	.	37	22
+	+	22	0
+	+	19	21
+	+	21	1
+	+	37	45
+	+	20	5
+	+	40	49
+	+	43	29
+	+	38	44
+	+	39	5
+	+	40	46
+	+	41	5
+	+	42	35
+	+	43	70
+	+	43	69
+	+	20	11
+	+	44	50
+	+	43	44
+	+	38	2
+	+	39	2
+	+	38	2
+	+	39	2
+	+	40	2
+	+	41	2
+	+	42	2
+	+	43	2
+	+	44	2
+	+	38	2
+	+	39	2
+	+	40	2
+	+	41	2
+	+	42	2
+	+	43	2
+	+	44	2
+	+	38	41
+	+	39	8
+	+	40	43
+	+	41	16
+	+	42	32
+	+	43	66
+	+	44	16
+	+	37	22
+
+> ~/db-class/practice/task1/task.js
+	*	1599501403	0
+	"	124	0
+	^	41	32
+	.	41	32
+	+	18	93
+	+	22	57
+	+	35	94
+	+	36	0
+	+	35	62
+	+	22	36
+	+	35	50
+	+	39	63
+	+	39	0
+	+	39	83
+	+	41	32
+
+> ~/CPSC305/loops.c
+	*	1599150860	0
+	"	4	26
+	^	4	27
+	.	4	27
+	+	13	11
+	+	10	0
+	+	9	12
+	+	14	0
+	+	5	0
+	+	4	13
+	+	7	0
+	+	6	16
+	+	9	17
+	+	13	2
+	+	6	7
+	+	9	21
+	+	13	19
+	+	4	27
+
+> ~/CPSC305/malloc.c
+	*	1599146291	0
+	"	9	12
+	^	9	13
+	.	9	12
+	+	16	31
+	+	17	40
+	+	18	0
+	+	11	26
+	+	9	12
+
+> ~/db-class/practice/task1/task1.js
+	*	1598991700	0
+	"	1	0
+
+> ~/ml-class2/Labs/labs/numpy.ipynb
+	*	1598978769	0
+	"	53	3
+
+> ~/CPSC305/primitive.c
+	*	1598905534	0
+	"	12	19
+	^	12	20
+	.	12	19
+	+	12	19
+
+> ~/CPSC305/boolean.c
+	*	1598905439	0
+	"	9	0
+	^	9	1
+	.	9	0
+	+	12	30
+	+	23	9
+	+	22	34
+	+	26	0
+	+	8	17
+	+	6	19
+	+	9	0
+
+> ~/db-class/practice/task1/.env
+	*	1598901684	0
+	"	3	21
+	^	3	22
+	.	3	21
+	+	2	21
+	+	1	0
+	+	3	21
+
+> ~/db-class/practice/practice
+	*	1598900272	0
+	"	1	0
+
+> ~/db-class/practice/task1/task1.env
+	*	1598898386	0
+	"	3	21
+	^	3	22
+	.	3	21
+	+	3	21
 
 > ~/db-class/library.sql
 	*	1598896059	0
@@ -269,13 +2346,6 @@
 	^	1	57
 	.	1	56
 	+	1	56
-
-> ~/db-class/.git/COMMIT_EDITMSG
-	*	1598895058	0
-	"	1	13
-	^	1	14
-	.	2	0
-	+	2	0
 
 > ~/HelloWorld/hello.c
 	*	1598402174	0
