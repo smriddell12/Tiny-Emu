@@ -61,10 +61,98 @@ void step() {
                                         registers[PC] = d->address;
                                         break;
                                 case 1:
+					if(bit_test(cpsr,Z) == 1){
+                                                registers[PC] = d->address;
+                                        }
+                                        break;
+                                case 2:
+                                        if(bit_test(cpsr,Z) == 0){
+                                                registers[PC] = d->address;
+                                        }
+                                        break;
+                                case 3:
+                                        if(bit_test(cpsr,Z) == 1 || bit_test(cpsr,N) != bit_test(cpsr,V)){
+                                                registers[PC] = d->address;
+                                        }
+                                        break;
+                                case 4:
+                                        if(bit_test(cpsr,N) != bit_test(cpsr,V)){
+                                                registers[PC] = d->address;
+                                        }
+                                        break;
+                                case 5:
+                                        if(bit_test(cpsr,N) == bit_test(cpsr,V)){
+                                                registers[PC] = d->address;
+                                        }
+                                        break;
+                                case 6:
+                                        if(bit_test(cpsr,Z) == 0 && bit_test(cpsr,N) == bit_test(cpsr,V)){
+                                                registers[PC] = d->address;
+                                        }
+                                        break;
+				case 80:
+                                        registers[LR] = pc + 4;
+                                        registers[PC] = d->address;
+                                        break;
+                                default:
+                                        printf("Instruction is invalid.\n");
+                                        exit(-1);
+                        }
+                        break;
+                case LDR:
+                        system_bus(d->address, &registers[d->rd], READ);
+                        break;
+                case STR:
+                        system_bus(d->address, &registers[d->rd], WRITE);
+                        break;
+                case MOV:
+                        if(d->flag == 128){
+                                registers[d->rd] = d->rn;
+                        }else{
+                                registers[d->rd] = d->immediate;
+                        }
+                        break;
+                case ADD:
+                        registers[d->rd] = registers[d->rm] + registers[d->rn];
+                        break;
+                case SUB:
+                        registers[d->rd] = registers[d->rm] - registers[d->rn];
+                        break;
+                case MUL:
+			registers[d->rd] = registers[d->rm] * registers[d->rn];
+                        break;
+                case DIV:
+                        registers[d->rd] = registers[d->rm] / registers[d->rn];
+                        break;
+                case ORR:
+                        registers[d->rd] = registers[d->rm] | registers[d->rn];
+                        break;
+                case EOR:
+                        registers[d->rd] = registers[d->rm] ^ registers[d->rn];
+                        break;
+                case AND:
+                        registers[d->rd] = registers[d->rm] & registers[d->rn];
+                        break;
+                case CMP:
+                        x = registers[d->rm] - registers[d->rn];
+                        if(x == 0){
+                                bit_set(&cpsr,Z);
+                                bit_clear(&cpsr,N);
+                        }else if(v < 0){
+                                bit_set(&cpsr,N);
+                                bit_clear(&cpsr,Z);
+                        }else{
+                                bit_clear(&cpsr,N);
+                                bit_clear(&cpsr,Z);
+                        }
+                        break;
+        }
 }
 
 void step_n(int n) {
-    	printf("You need to implement step_n().\n");
+        for (int i = 0; i < n; i++){
+                step();
+        }
 }
 
 void step_show_reg() {
