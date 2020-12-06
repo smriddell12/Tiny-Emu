@@ -32,14 +32,35 @@ int get_cpsr() {
 }
 
 void show_regs() {
-    	printf("You need to implement show_regs().\n");
+    for (int i = 0; i < 16; i++){
+        printf("R%d: %d\n",registers[i]);
+    }
 }
 
 void step() {
-    	int pc = registers[PC];    
-	int inst;     
-	system_bus(pc, &inst, READ);    
-	printf("You need to implement step().\n");
+    	//given
+        int pc = registers[PC];
+        int inst;
+        system_bus(pc, &inst, READ);
+        //print inst and PC
+        printf("PC: 0x%08x, ",ps)
+        printf("inst: 0x%08x, \n",inst);
+
+        decoded *d = decode(inst);
+        int x = 0;
+        //print CPSR
+        printf("CPSR: 0x08x\n",get_cpsr());
+        registers[PC] += 4;
+
+        //switch statments depending on opcode
+        switch(d->opcode){
+                case B:
+                        //switch statement depending on which type of branching
+                        switch(d->condition){
+                                case 0:
+                                        registers[PC] = d->address;
+                                        break;
+                                case 1:
 }
 
 void step_n(int n) {
